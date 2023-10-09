@@ -15,7 +15,7 @@ const QuoteCard = ({quote, handleChangeQuote}) => {
 <p className="quoteCard__phrase">{quote.phrase}</p>
  
 
-<button className="quoteCard__btn" onClick={handleChangeQuote}><i className='bx bx-shuffle'></i></button>
+<button className="quoteCard__btn" onClick={handleChangeQuote}><i className='bx bx-shuffle bx-md'></i></button>
         </article>
      <div className="quoteCard__sphere">
      <img src="/sphere.png" alt="" />

@@ -22,3 +22,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin: 0;
 }
+
+@font-face {
+  font-family: digital;
+  src: url(./fonts/digital-7.ttf);
+}

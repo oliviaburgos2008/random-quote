@@ -11,7 +11,7 @@
 .quoteCard__phrase {
   color: #25063f;
   text-align: center;
-  font-family: Digital Numbers;
+  font-family: digital;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -32,4 +32,30 @@
   fill: #fff;
   filter: drop-shadow(0px 4px 9px rgba(255, 255, 255, 0.25));
   border-radius: 50%;
+}
+
+.quoteCard__sphere {
+   
+  fill: radial-gradient(
+    104.98% 104.98% at 31.89% -4.64%,
+    #fff 0%,
+    rgba(211, 245, 255, 0.81) 18.76%,
+    rgba(151, 232, 255, 0.53) 46.74%,
+    rgba(108, 223, 255, 0.29) 70.59%,
+    rgba(81, 217, 255, 0.11) 89.1%,
+    rgba(71, 215, 255, 0) 100%
+  );
+  opacity: 0.5;
+}
+
+.quoteCard__footer {
+color: #FFF;
+text-align: center;
+text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.33);
+font-family: Fredoka;
+font-size: 16.036px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
 }
