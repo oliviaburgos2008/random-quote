@@ -1,15 +1,35 @@
 .quoteCard {
-    min-height: 100vh;
-    display: grid;
-    grid-template-rows: 1fr auto;
-    text-align: center;
-    align-items: center;
-    padding: 10px;
-    color: white;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  color: white;
 }
 
 .quoteCard__phrase {
-    margin: 30px auto;  
-    max-width: 400px;
-     
+  color: #25063f;
+  text-align: center;
+  font-family: Digital Numbers;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 30px auto;
+  max-width: 400px;
+  display: flex;
+  padding: 70px 33px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 39px;
+  background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.33) 100%);
+}
+
+.quoteCard__btn {
+  width: 48.75px;
+  height: 48.75px;
+  fill: #fff;
+  filter: drop-shadow(0px 4px 9px rgba(255, 255, 255, 0.25));
+  border-radius: 50%;
 }
